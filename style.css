@@ -1,0 +1,60 @@
+:root{
+  --background-color: rgba(225, 241, 217, 0.69);
+  --header-color: rgba(2, 90, 104, 0.88);
+  --header-text: white;
+  --aside-text: 
+}
+
+body{
+  background-color: var(--background-color);
+}
+
+header{
+  background-color: var(--header-color);
+  color: var(--header-text);
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 10 px 100px;
+}
+
+header a{
+  color: var(--header-text);
+}
+
+header nav{
+  padding: 20px;   
+}
+
+header nav a+a{
+  margin-left: 11px;
+}
+
+header h1{
+  padding-left: 50px;
+}
+
+.quemsomos{
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 80px;
+  z-index: 7;
+  width: 190px;
+}
+
+#quem{
+  background-color: var(--header-color);
+  color: #c8e9e6;
+}
+
+.kitten{
+  height: 250px;
+  margin: 20px;
+}
+
+.dogie{
+  height: 250px;
+  margin: 20px;
+}
